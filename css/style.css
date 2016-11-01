@@ -1,4 +1,4 @@
-body{
+body {
   font-size: 14px;
   line-height: 24px;
   color: #000000;
@@ -7,12 +7,147 @@ body{
   text-transform: uppercase;
 }
 
-h1{
+h1 {
   font-size: 30px;
   line-height: 42px;
 }
 
-h2{
+h2 {
   font-size: 24px;
   line-height: 30px;
+}
+
+.header {
+   background-color: #000000;
+   margin-bottom: 54px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+    width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ecf8ca
+}
+
+.logo {
+    float: left;
+    width: 140px;
+    min-height: 70px;
+    margin-right: 20px;
+    background-color: #f9cccc;
+}
+
+.navigation {
+    float: left;
+    width: 620px;
+    min-height: 70px;
+    margin-right: 20px;
+    background-color: #f9cccc;
+}
+
+.user {
+    float: right;
+    width: 140px;
+    min-height: 70px;
+    background-color: #f9cccc;
+}
+
+.top-section {
+    margin-bottom: 54px;
+    background-color: #f9cccc;
+}
+
+.left-section {
+    float:left;
+    width: 220px;
+    margin-right: 20px;
+    background-color: #f9cccc;
+}
+
+.right-section {
+    float: right;
+    width: 700px;
+    background-color: #f9cccc;
+}
+
+.producers {
+   margin-bottom: 52px;
+}
+
+.product-1,
+.product-2,
+.product-3,
+.product-4,
+.product-5,
+.product-6 {
+     float:left;
+     width: 220px;
+     min-height: 287px;
+     margin-right: 20px;
+     margin-bottom: 20px;
+}
+
+.product-3,
+.product-6 {
+    margin-right: 0px;
+}
+
+.content {
+    margin-bottom: 44px;
+}
+
+.left-content {
+    float: left;
+    width: 470px;
+}
+
+.right-content {
+    float: right;
+    width: 400px;
+}
+
+.first-preview,
+.second-preview,
+.third-preview {
+   float: left;
+   margin-right: 20px;
+   margin-top: 10px;
+}
+
+.third-preview {
+   margin-right: 0px;
+}
+
+.footer {
+   margin-top: 50px;
+   padding-top: 60px;
+   padding-bottom: 40px;
+   background-color: #212121;
+}
+
+.contacts {
+   float: left;
+   width: 320px;
+   margin-right: 60px;
+   background-color: #f9cccc;
+}
+
+.social {
+   float: left;
+   width: 180px;
+   background-color: #f9cccc;
+}
+
+.copyright{
+    float: right;
+    width: 180px;
+    background-color: #f9cccc;
 }
