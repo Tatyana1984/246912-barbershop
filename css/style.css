@@ -40,29 +40,86 @@ h2 {
 .logo {
     float: left;
     width: 140px;
-    min-height: 70px;
-    margin-right: 20px;
+    margin-right: 10px;
     background-color: #f9cccc;
 }
 
 .navigation {
     float: left;
-    width: 620px;
-    min-height: 70px;
-    margin-right: 20px;
+    width: 640px;
     background-color: #f9cccc;
+}
+
+.navigation li {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: top;
+    outline: 1px solid #73f27f;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 25px 20px;
+    text-decoration: none;
 }
 
 .user {
     float: right;
-    width: 140px;
-    min-height: 70px;
+    max-width: 140px;
     background-color: #f9cccc;
 }
+
+.login {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 25px 20px;
+    padding-left: 50px;
+    text-decoration: none;
+ }
+
+ .logo img {
+     display: block;
+     padding: 23px 9px 23px 20px;
+ }
 
 .top-section {
     margin-bottom: 54px;
     background-color: #f9cccc;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.menu li {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: top;
+}
+
+.menu a {
+    display: block;
+    padding-right: 40px;
+    text-decoration: none;
+    outline: 1px solid #73f27f;
+}
+
+.menu li:last-child {
+    padding-left: 5px;
 }
 
 .left-section {
@@ -79,24 +136,18 @@ h2 {
 }
 
 .producers {
-   margin-bottom: 52px;
+    margin-bottom: 52px;
 }
 
-.product-1,
-.product-2,
-.product-3,
-.product-4,
-.product-5,
-.product-6 {
-     float:left;
-     width: 220px;
-     min-height: 287px;
-     margin-right: 20px;
-     margin-bottom: 20px;
+.product-elem {
+    float:left;
+    width: 220px;
+    min-height: 287px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-.product-3,
-.product-6 {
+.product-elem:nth-child(3n) {
     margin-right: 0px;
 }
 
@@ -114,16 +165,44 @@ h2 {
     width: 400px;
 }
 
-.first-preview,
-.second-preview,
-.third-preview {
-   float: left;
-   margin-right: 20px;
-   margin-top: 10px;
+.preview-elem {
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 
-.third-preview {
-   margin-right: 0px;
+.preview-elem:last-child {
+    margin-right: 0px;
+}
+
+.set-1 {
+    float: left;
+}
+
+.set-2 {
+    float: right;
+}
+
+.pages ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.pages li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 18px;
+    padding-right: 7px;
+}
+
+.pages a {
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    outline: 1px solid #73f27f;
 }
 
 .footer {
